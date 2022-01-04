@@ -10,6 +10,7 @@
     border: none;
     margin: 10px;
     transition: background-color 0.5s;
+    cursor: pointer;
 }
 
 @media (max-width: 767px) {
@@ -29,4 +30,5 @@
 
 .buttons__button:disabled {
     color: #ccc;
+    cursor: not-allowed;
 }
