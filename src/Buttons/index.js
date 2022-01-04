@@ -9,7 +9,7 @@ const Buttons = ({ tasks, hideDone, toggleHideDone, setAllDone }) => (
                 <button 
                 onClick={toggleHideDone} 
                 className="buttons__button">
-                    {hideDone ? "Pokaż" : "Ukryj "} 
+                    {hideDone ? "Pokaż " : "Ukryj "} 
                         zrobione
                 </button>
                 
