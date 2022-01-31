@@ -8,11 +8,11 @@ import Container from "./Container";
 
 function App() {
   
-  const sampleTasks = [
+  /*const sampleTasks = [
       { id: 1, content: "Przykładowe pierwsze zadanie", done: true },
       { id: 2, content: "Przykładowe drugie zadanie", done: false },
       { id: 3, content: "Przykładowe trzecie zadanie", done: false },
-  ];
+  ];*/
   
   const [hideDone, setHideDone] = useState(false);
 
@@ -21,7 +21,7 @@ function App() {
   const [tasks, setTasks] = useState(
     tasksInLocalStorage
       ? JSON.parse(tasksInLocalStorage)
-      : [sampleTasks]
+      : []
   );
 
   useEffect(() => {
