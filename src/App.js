@@ -6,13 +6,6 @@ import Section from "./Section";
 import Header from "./Header";
 import Container from "./Container";
 
-/*const Buttons = styled.button`
-
-${({primary}) => primary && css`
-
-`}
-`;*/
-
 function App() {
   
   /*const sampleTasks = [
