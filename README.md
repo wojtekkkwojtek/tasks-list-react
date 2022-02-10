@@ -1,6 +1,6 @@
 # Wojciech K - Lista zadań
 
-<img src="./public/Tasks-list-demo.gif" alt="demo animation">
+<img src="./Tasks-list-demo.gif" alt="demo animation">
 
 https://wojtekkkwojtek.github.io/tasks-list-react/
 
