@@ -1,7 +1,6 @@
 import {Wrapper, Header, Body, Title} from "./styled"
 
-const Section = ({ title, body, extraHeaderContent }) => (
-
+const Section = ({title, body, extraHeaderContent}) => (
     <Wrapper>
         <Header>
             <Title>{title}</Title>
@@ -11,7 +10,6 @@ const Section = ({ title, body, extraHeaderContent }) => (
             {body}
         </Body>
     </Wrapper>
-
 );
 
 export default Section;
