@@ -6,11 +6,6 @@ import Header from "../../common/Header";
 import Container from "../../common/Container";
 
 function Tasks() {
-  /*const sampleTasks = [
-      { id: 1, content: "Przykładowe pierwsze zadanie", done: true },
-      { id: 2, content: "Przykładowe drugie zadanie", done: false },
-      { id: 3, content: "Przykładowe trzecie zadanie", done: false },
-  ];*/
 
   return (
     <Container>
