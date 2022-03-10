@@ -1,5 +1,4 @@
-# Wojciech K - Lista zadań
-
+# Wojciech K - Lista zadań 
 <img src="./Tasks-list-demo.gif" alt="demo animation">
 
 https://wojtekkkwojtek.github.io/tasks-list-react/
@@ -9,11 +8,23 @@ Description:
 Here is a simple tasks list. The task-to-do list allows you to enter a new task by typing it 
 in the form field and clicking on "Enter" or clicking on the button "Dodaj zadanie". 
 You can easily manage your tasks. It's up to you whether you delete one (using the red button) 
-or mark a task as done (using the green button). You can also hide done tasks by clicking on "Ukryj zrobione"
-or mark all the tasks as done using the button "Ukończ wszystkie." 
+or mark a task as done (using the green button). You can also hide done tasks by clicking on "Ukryj zrobione" or mark all the tasks as done using the button "Ukończ wszystkie." 
 If you hide all the tasks, the next button will appear for showing them again ("Pokaż zrobione").
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). Saving in localStorage, styled-components and custom hooks implemented. 
+You can download the set of example tasks at any time by clicking on the button "Pobierz przykładowe zadania". 
+The user can also use the search engine "Wyszukiwarka" to filter saved tasks and go to the selected
+one by clicking on it. 
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and following features/technologies are implemented:
+- tasks saving in localStorage,
+- tasks filtering,
+- styled-components,
+- custom hooks,
+- redux,
+- redux-toolkit,
+- redux-saga,
+- redux-router 
+- and more... 
 ## Available Scripts
 
 In the project directory, you can run:
