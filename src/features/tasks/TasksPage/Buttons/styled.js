@@ -6,12 +6,12 @@ export const Wrapper = styled.div`
     font-size: medium;
 `;
 
-export const Button = styled.button`
+export const StyledButton = styled.button`
     background: transparent;
-    color: teal;
+    color: #015c7a;
     border: none;
-    margin: 10px;
-    transition: background-color 0.5s;
+    margin: 10px 2px;
+    transition: background-color 1.2s;
     cursor: pointer;
 
     @media (max-width: 767px) {
@@ -20,11 +20,12 @@ export const Button = styled.button`
     }
 
     &:hover {
-        color: rgb(2, 73, 73);
+        filter: brightness(50%);
+        transform: scale(1.1)
     }
 
     &:active {
-        color: rgb(1, 22, 22);
+        filter: brightness(25%);
     }
 
     &:disabled {
