@@ -10,25 +10,20 @@ export const StyledForm = styled.form`
     }
 `;
 
-export const Input = styled.input`
-    padding: 10px;
-    border: 1px solid #ddd;
-`;
-
 export const Button = styled.button`
     padding: 10px;
     background: teal;
     color: white;
     border: none;
-    transition: 0.5s;
+    transition: 0.7s;
     cursor: pointer;
 
     &:hover {
-        background: rgb(0, 128, 90);
-        transform: scale(1.3); 
+        filter: brightness(110%);
+        transform: scale(1.2); 
     }
 
     &:active {
-        background: rgb(0, 128, 43);
+        filter: brightness(120%);
     }
 `;
