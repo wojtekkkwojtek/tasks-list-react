@@ -1,4 +1,5 @@
 import styled, {css} from "styled-components";
+import {Link} from "react-router-dom";
 
 export const List = styled.ul`
     list-style: none;
@@ -39,11 +40,12 @@ export const Button = styled.button`
         background-color: rgb(0, 128, 64);
 
         &:hover {
-            background-color: rgb(1, 95, 48);
+            filter: brightness(120%);
+            transform: scale(1.2);
         }
 
         &:active {
-            background-color: rgb(2, 49, 25);
+            filter: brightness(140%);
         }
     `}
 
@@ -51,11 +53,17 @@ export const Button = styled.button`
         background-color: rgb(199, 3, 3);
 
         &:hover {
-            background-color: rgb(138, 3, 3);
+            filter: brightness(120%);
+            transform: scale(1.2);
         }
 
         &:active {
-            background-color: rgb(80, 1, 1);
+            filter: brightness(140%);
         }
     `}
+`;
+
+export const StyledLink = styled(Link)`
+  text-decoration: none;
+  color: black;
 `;
