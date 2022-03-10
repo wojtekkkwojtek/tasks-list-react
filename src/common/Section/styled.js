@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
-    margin: 10px 0;
+    margin: 12px 0;
     background: white;
-    box-shadow: 0 0 5px #ddd;
+    box-shadow: 0 0 10px #ddd;
 `;
 
 export const Header = styled.header`
@@ -21,10 +21,10 @@ export const Header = styled.header`
 `;
 
 export const Body = styled.div`
-    padding: 20px;
+    padding: 15px;
 `;
 
 export const Title = styled.h2`
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 0;
 `;
