@@ -27,4 +27,8 @@ export const Body = styled.div`
 export const Title = styled.h2`
     font-size: 1.3em;
     margin: 0;
+
+    @media (max-width: 767px) {
+        font-size: 1.1em;
+    }
 `;
